@@ -1,3 +1,37 @@
 body {
     background-color: hsla(202, 45%, 65%, 0.856);
 }
+#hero {
+    padding-top: 5rem;
+    text-align: center;
+
+}
+#course-wrapper{
+    display: flex;
+    justify-content:center;
+}
+#courseContainer {
+    margin-top: 5rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.selection {
+    padding: 0.5rem 1rem;
+    background-color:rgba(161, 235, 118, 0.616);
+    border-color: rgba(51, 75, 37, 0.616);
+    border-width: 1 rem;
+    border-style: solid;
+    border-radius: 0.4rem;
+    font-weight: bold;
+}
+
+.selection:hover{
+    background-color: rgba(51, 75, 37, 0.616);
+    color: hsla(0, 3%, 70%, 0.959);
+}
+
+#messageContainer{
+    margin-top: 7rem;
+}

@@ -4,24 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script type="text/javascript" src="./dateCalc.js"></script>
+    <script type="text/javascript" src="./dateCalc.js" defer></script>
     <title>Course Length Calculator</title>
 
 </head>
 <body>
-<h1>Course Length Calculator</h1>
+    <!--The hero of the page-->
+    <sectio id="hero">
+        <h1>Course Length Calculator</h1>
+    </section>
 <!--The section that holds the course to be selected-->
-<section id="courseContainer">
-    <div class="course" id="course1">
-        <h2>Course1</h2>
-    </div>
-    <div class="course" id="course2">
-        <h2>Course 2</h2>
-    </div>
-    <div class="course" id="course3">
-        <h2>Course 3</h2>
-    </div>
-</section>
+<div id="course-wrapper">
+    <section id="courseContainer">
+        <div class="course" >
+            <h2>Course1</h2>
+            <p>Course one is about how being first is important in certain cultures.</br>
+                This course is 25 days long.
+            </p>
+            <button type="submit" class="selection" id="course1">Select</button>
+        </div>
+        <div class="course" >
+            <h2>Course 2</h2>
+            <p> Course two references the age old adage "If you ain't first, you're last"
+                </br>
+                This course is 39 days long.
+            </p>
+            <button type="submit" class="selection" id="course2">Select</button>
+            
+        </div>
+        <div class="course" >
+            <h2>Course 3</h2>
+            <p> Course three is the course for people that understands what life is about.
+                </br>
+                This is course is 53 days long.
+            </p>
+            <button type="submit" class="selection" id="course3">Select</button>
+        </div>
+    </section>
+</div>
 <!--The section that contains the message about dates for the user-->
 <section id="messageContainer">
     <p>This is a section that is currenlty holding random words so that I can know where to place things.
